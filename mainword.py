@@ -5,15 +5,15 @@ meme_dict = {
 
 "Mood":  "Se usa para expresar identificación con una emoción o situación.",
 
-"Bro": "Amigo (equivalente a "parce", "mano", etc.).",
+"Bro": "Amigo (equivalente a parce, mano, etc.).",
 
-"F"  "Para mostrar respeto o lamento (viene de los videojuegos).",
+"F" : "Para mostrar respeto o lamento (viene de los videojuegos).",
 
-"Tóxico/a" "Alguien que causa problemas o drama.",
+"Tóxico/a": "Alguien que causa problemas o drama.",
 
 "Flexear":  "Presumir algo.",
 
-"Shippear" " Querer que dos personas estén juntas (de relationship)." ,
+"Shippear": " Querer que dos personas estén juntas (de relationship)." ,
 
 "Spoiler" : "Revelar algo importante de una serie, película, etc." ,
 
@@ -22,6 +22,6 @@ meme_dict = {
 "Fake": "Falso, poco auténtico."}
 word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
 if word in meme_dict.keys():
-    # ¿Qué debemos hacer si se encuentra la palabra?
+    print(meme_dict[word])
 else:
-    # ¿Qué hacer si no se encuentra la palabra?
+    print("la palabra no esta en el diccionario ")
